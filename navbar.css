@@ -1,0 +1,104 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  text-align: center;
+  padding: 20px;
+}
+h1 {
+  color: tomato;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.container {
+  display: flex;
+  width: 100vw;
+  min-height: 20vh;
+  padding: 20px;
+  gap: 10px;
+  flex-direction: row;
+  flex: wrap;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  width: 28%;
+  height: 50%;
+  padding: 20px;
+}
+.navbar {
+  color: azure;
+}
+.one {
+  width: 25%;
+  height: 50%;
+  background-color: blue;
+}
+.two {
+  width: 25%;
+  height: 50%;
+  background-color: brown;
+}
+.three {
+  width: 25%;
+  height: 50%;
+  background-color: red;
+}
+.four {
+  width: 25%;
+  height: 50%;
+  background-color: darkorange;
+} */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.container {
+  display: flex;
+  width: 100vw;
+  min-height: 60vh;
+  padding: 20px;
+  /* background-color: black; */
+  gap: 10px;
+  flex-direction: row-reverse;
+  flex: wrap;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  width: 25%;
+  height: 50%;
+  /* background-color: aqua; */
+  padding: 20px;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
+.one {
+  width: 25%;
+  height: 50%;
+  background-color: blue;
+}
+.two {
+  width: 25%;
+  height: 50%;
+  background-color: brown;
+}
+.three {
+  width: 25%;
+  height: 50%;
+  background-color: red;
+}
+.four {
+  width: 25%;
+  height: 50%;
+  background-color: darkorange;
+}
